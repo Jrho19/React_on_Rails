@@ -31,6 +31,9 @@ var EventApplication = React.createClass({
         <div className="col-md-4">
           <SearchForm handleSearch={this.handleSearch} />
         </div>
+        <div className="col-md-8">
+          <NewForm handleAdd={this.handleAdd} />
+        </div>
       </div>
       <div className="row">
         <div className="col-md-12">
